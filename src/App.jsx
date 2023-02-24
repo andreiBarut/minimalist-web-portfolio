@@ -9,7 +9,7 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div className="App bg-neutral-50">
+		<div className="App bg-neutral-100">
 			<BrowserRouter>
 				<Navbar />
 				<Routes>

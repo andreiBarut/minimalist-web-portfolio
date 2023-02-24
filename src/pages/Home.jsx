@@ -8,14 +8,14 @@ const Home = () => {
 				<h2 className="text-5xl font-bold">
 					Junior <br /> Software <br /> Developer
 				</h2>
-				<button className="bg-zinc-900 text-white p-5 rounded-2xl  hover:ring hover:ring-zinc-600 hover:ring-offset-8 transition-all    hover:scale-105">
+				<button className="bg-zinc-800 text-white p-5 rounded-2xl  hover:ring hover:ring-zinc-600 hover:ring-offset-8 transition-all    hover:scale-105">
 					Get In Touch
 				</button>
 			</section>
 			<section>
-				<div className="bg-zinc-800 rounded-full w-96  transition-all hover:ring hover:ring-zinc-600 hover:ring-offset-8">
+				<div className="bg-zinc-300 rounded-full w-96  transition-all ">
 					<img
-						className="w-96 filter  -translate-y-8  transition-all cursor-pointer grayscale hover:grayscale-0 hover:scale-105"
+						className="w-96 filter  -translate-y-8  transition-all cursor-pointer grayscale hover:grayscale-0 "
 						src={profilePic}
 						alt="photo of me"
 					/>
