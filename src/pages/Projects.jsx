@@ -1,11 +1,15 @@
 import voteVTO from "../assets/voteVTO.png";
+import { GiLightBulb } from "react-icons/gi";
 
 const Projects = () => {
 	return (
-		<div className="projects-container h-max lg:h-screen flex flex-col justify-center items-center">
-			<h1 className="text-4xl font-bold p-10">Some of my Recent Projects</h1>
+		<div className="projects-container h-max lg:h-screen flex flex-col justify-center items-center mb-10">
+			<h1 className="text-4xl font-bold p-10 flex justify-center items-center">
+				<GiLightBulb className="text-6xl text-violet-400 animate-pulse" />
+				Some of my Recent Projects{" "}
+			</h1>
 			<section className="flex justify-center gap-10 lg:gap-16 flex-wrap flex-col lg:flex-row">
-				<article className="flex flex-col justify-center items-center w-96 lg:w-1/4 p-5 drop-shadow-xl shadow-xl border-zinc-300 rounded-3xl">
+				<article className="flex flex-col justify-center items-center gap-2 w-96 lg:w-1/4 p-5 drop-shadow-xl shadow-xl border-zinc-300 rounded-3xl">
 					<img src={voteVTO} className=" rounded-xl" alt="project image" />
 					<h2 className=" text-2xl font-bold text-center">Custom Polls</h2>
 

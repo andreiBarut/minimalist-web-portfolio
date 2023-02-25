@@ -1,8 +1,8 @@
 import aboutPicture from "../assets/about-picture-removebg.png";
-
+import { RiFileInfoFill } from "react-icons/ri";
 const About = () => {
 	return (
-		<div className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen lg:h-screen xl:h-screen p-0  lg:p-52 gap-10 md:gap-20 lg:gap-32 relative">
+		<div className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen  p-0  lg:p-52 gap-10 md:gap-20 lg:gap-32 relative">
 			<section className="w-full md:w-1/2 flex justify-center flex-col text-sm items-center">
 				<img
 					src={aboutPicture}
@@ -62,12 +62,15 @@ const About = () => {
 				</ul>
 			</section>
 			<section className="px-10 md:w-1/2 flex flex-col justify-center items-start gap-10 text-md">
-				<h2 className="text-4xl font-bold">About me</h2>
-				<div className="hidden md:flex items-center">
+				<h2 className="text-4xl font-bold flex gap-5 justify-center items-center ">
+					About me
+					<RiFileInfoFill className="text-4xl text-violet-400 animate-pulse" />
+				</h2>
+				{/* <div className="hidden md:flex items-center">
 					<div className="w-4 h-4 rounded-full bg-zinc-800"></div>
 					<div className="w-64 h-1 bg-zinc-800"></div>
 					<div className="w-4 h-4 rounded-sm bg-zinc-800"></div>
-				</div>
+				</div> */}
 				<p className=" leading-8">
 					I am{" "}
 					<span className="bg-zinc-800 text-neutral-50 m-2 inline  rounded-2xl  p-1">
