@@ -1,6 +1,7 @@
 import personalLogo from "../assets/AB-logos_transparent.png";
 import { CiMail } from "react-icons/ci";
 import { RiMenu4Fill } from "react-icons/ri";
+import { BsFillMenuAppFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import { useState } from "react";
@@ -29,16 +30,16 @@ const Navbar = () => {
 					transform: "translate(-50%, -50%",
 				}}
 			>
-				<li className="hover:scale-125 text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
 					<a href="#">Home</a>
 				</li>
-				<li className="hover:scale-125 text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
 					<a href="#">About</a>
 				</li>
-				<li className="hover:scale-125 text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
 					<a href="#">Projects</a>
 				</li>
-				<li className="hover:scale-125 text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
 					<a href="#">Blog</a>
 				</li>
 			</ul>
@@ -66,7 +67,7 @@ const Navbar = () => {
 		<>
 			{mobileNav}
 			<RiMenu4Fill
-				className="flex text-4xl lg:hidden z-50 cursor-pointer fixed right-6"
+				className="flex text-4xl lg:hidden z-50 cursor-pointer fixed right-6 top-1"
 				onClick={handleClick}
 				style={{ transform: `${skew}`, transition: "0.8s", color: `${menuColor}` }}
 			/>
