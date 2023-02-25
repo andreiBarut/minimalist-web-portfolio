@@ -1,21 +1,79 @@
+import aboutPicture from "../assets/about-picture-removebg.png";
+
 const About = () => {
 	return (
-		<div className="about-container flex justify-center h-max">
-			<section className="w-1/2">
-				<img src="/" alt="about photo" />
+		<div className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen lg:h-screen xl:h-screen p-0  lg:p-52 gap-10 md:gap-20 lg:gap-32 relative">
+			<section className="w-full md:w-1/2 flex justify-center flex-col text-xs items-center">
+				<img
+					src={aboutPicture}
+					className="hidden lg:block sm:w-52 md:w-72 lg:w-96"
+					alt="about photo"
+				/>
+				{/* <p className="font-bold ">Skills</p> */}
+				<ul className="flex flex-wrap justify-center">
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						HTML
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">CSS</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						JavaScript ES6
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						React
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Taiwlind
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Bootstrap
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">API</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Firebase
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">Npm</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">Git</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Github
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Linux
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Command Line
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Cloud Services
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						JSON
+					</li>
+					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+						Database
+					</li>
+				</ul>
 			</section>
-			<section className="w-1/2 flex flex-col justify-center items-start gap-10 text-sm">
+			<section className="px-10 md:w-1/2 flex flex-col justify-center items-start gap-10 text-sm">
 				<h2 className="text-4xl font-bold">About me</h2>
+				<div className="hidden md:flex items-center">
+					<div className="w-4 h-4 rounded-full bg-zinc-800"></div>
+					<div className="w-64 h-1 bg-zinc-800"></div>
+					<div className="w-4 h-4 rounded-sm bg-zinc-800"></div>
+				</div>
 				<p className=" leading-6">
-					I am <span>front-end developer</span>, passionate, open to a new
-					professional challenge and ready to take on responsibilities. Reliable team
-					member always ready to help. Quick learner with problem-solving and
-					decision-making mindset, and excellent interpersonal skills, I am seeking
-					to be employed in a company with strong organizational culture, where I can
-					add value using my skills and my previous professional experience within
-					the IT Industry.
+					I am{" "}
+					<span className="bg-zinc-800 text-neutral-50 m-2 inline  rounded-2xl  p-1">
+						front-end developer
+					</span>
+					passionate, open to a new professional challenge and ready to take on
+					responsibilities. Reliable team member always ready to help. Quick learner
+					with problem-solving and decision-making mindset, and excellent
+					interpersonal skills, I am seeking to be employed in a company with strong
+					organizational culture, where I can add value using my skills and my
+					previous professional experience within the IT Industry.
 				</p>
-				<p className=" leading-6">
+
+				{/* <p className=" leading-6">
 					I have{" "}
 					<span className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl">
 						over one year experience
@@ -58,7 +116,7 @@ const About = () => {
 				<p>
 					HTML, CSS, JS, ReactJs, Firebase, Tailwind, npm, git, GitHub, Linux,
 					command line, Figma, SCSS, API, JSON
-				</p>
+				</p> */}
 			</section>
 		</div>
 	);

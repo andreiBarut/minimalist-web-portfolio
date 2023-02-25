@@ -27,9 +27,9 @@ const Home = () => {
 				<div className="w-4 h-4 rounded-full bg-zinc-300 absolute bottom-12 left-32 animate-pulse"></div>
 			</section>
 			<section className="hidden md:block ">
-				<div className="bg-zinc-300 rounded-full w-80  transition-all">
+				<div className="bg-zinc-300 rounded-full w-80  transition-all ">
 					<img
-						className="h-80 filter  -translate-y-5 rounded-xl transition-all cursor-pointer grayscale hover:grayscale-0 "
+						className="w-80 filter  -translate-y-8  transition-all cursor-pointer grayscale hover:grayscale-0 "
 						src={profilePic}
 						alt="photo of me"
 					/>
