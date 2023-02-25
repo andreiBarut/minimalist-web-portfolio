@@ -12,7 +12,7 @@ const Navbar = () => {
 	const [menuColor, setMenuColor] = useState("black");
 	const mobileNav = (
 		<div
-			className="z-10 fixed right-0 bg-violet-500 h-full w-1/2 lg:hidden"
+			className="z-40 fixed right-0 bg-violet-500 h-full w-1/2 lg:hidden"
 			style={{
 				transform: `${menuPosition}`,
 				transitionProperty: "all",
@@ -65,7 +65,12 @@ const Navbar = () => {
 	return (
 		<>
 			{mobileNav}
-			<nav className="navbar-container fixed flex items-center justify-between px-10 transition-all font-medium filter backdrop-blur-md w-screen  text-sm md:text-lg z-50">
+			<RiMenu4Fill
+				className="flex text-4xl lg:hidden z-50 cursor-pointer fixed right-6"
+				onClick={handleClick}
+				style={{ transform: `${skew}`, transition: "0.8s", color: `${menuColor}` }}
+			/>
+			<nav className="navbar-container fixed flex items-center justify-between px-10 transition-all font-medium filter backdrop-blur-md w-screen  text-sm md:text-lg z-30">
 				<div className="navbar-logo flex items-center justify-center transform hover:scale-125  cursor-pointer transition-all  animate-pulse">
 					<img src={personalLogo} alt="my personal logo" className="h-12 w-auto " />
 					Barut
@@ -84,11 +89,6 @@ const Navbar = () => {
 						<a href="#">Blog</a>
 					</li>
 				</ul>
-				<RiMenu4Fill
-					className="flex text-4xl lg:hidden z-10 cursor-pointer"
-					onClick={handleClick}
-					style={{ transform: `${skew}`, transition: "0.8s", color: `${menuColor}` }}
-				/>
 
 				<div className="navbar-mail hidden lg:flex items-center justify-center gap-1 hover:scale-125  transition-all">
 					<CiMail className="text-2xl" />

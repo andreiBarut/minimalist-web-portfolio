@@ -18,15 +18,15 @@ function App() {
 
 			<div className="app-content-container">
 				<Navbar />
-				<Slide direction="left" delay={0} damping={0}>
+				<Reveal delay={0} damping={0}>
 					<Home />
-				</Slide>
-				<Slide direction="right" delay={0} damping={0}>
+				</Reveal>
+				<Reveal delay={0} damping={0}>
 					<About />
-				</Slide>
-				<Slide direction="left" delay={0}>
+				</Reveal>
+				<Reveal delay={0}>
 					<Projects />
-				</Slide>
+				</Reveal>
 			</div>
 		</div>
 	);
