@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
 			<Navbar />
 			<Home />
 			<About />
+			<Projects />
 		</div>
 	);
 }

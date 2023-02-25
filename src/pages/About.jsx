@@ -11,44 +11,52 @@ const About = () => {
 				/>
 				{/* <p className="font-bold ">Skills</p> */}
 				<ul className="flex flex-wrap justify-center">
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						HTML
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">CSS</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+						CSS
+					</li>
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						JavaScript ES6
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						React
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Taiwlind
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Bootstrap
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">API</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+						API
+					</li>
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Firebase
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">Npm</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">Git</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+						Npm
+					</li>
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+						Git
+					</li>
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Github
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Linux
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Command Line
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Cloud Services
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						JSON
 					</li>
-					<li className="bg-zinc-800 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
 						Database
 					</li>
 				</ul>

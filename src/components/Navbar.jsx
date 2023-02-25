@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar-container flex items-center justify-between px-10 transition-all font-medium  backdrop-blur w-screen lg:w-auto text-xs">
+		<nav className="navbar-container flex items-center justify-between px-10 transition-all font-medium  backdrop-blur w-screen lg:w-auto text-sm md:text-lg">
 			<div className="navbar-logo flex items-center justify-center transform hover:scale-125  cursor-pointer transition-all  animate-pulse">
 				<img src={personalLogo} alt="my personal logo" className="h-12 w-auto " />
 				Barut

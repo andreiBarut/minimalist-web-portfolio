@@ -7,7 +7,7 @@ const Home = () => {
 				<h6 className="text-md lg:text-xl xl:text-2xl animate-pulse">
 					Hi, I'm Andrei Barut
 				</h6>
-				<h2 className="text-3xl lg:text-5xl xl:text-6xl font-bold m">
+				<h2 className="text-3xl lg:text-5xl xl:text-6xl font-bold text-violet-400 rounded-xl p-5">
 					Junior <br /> Software <br /> Developer
 				</h2>
 				<p className="text-sm ">
@@ -21,10 +21,10 @@ const Home = () => {
 					<div className="w-64 h-1 bg-zinc-800"></div>
 					<div className="w-4 h-4 rounded-full bg-zinc-800"></div>
 				</div>
-				<button className="bg-zinc-800 text-white p-5 rounded-2xl  hover:ring hover:ring-zinc-600 hover:ring-offset-8 transition-all    hover:scale-105">
+				<button className="bg-zinc-800 text-white p-5 rounded-2xl hover:bg-violet-400 hover:ring hover:ring-zinc-600 hover:ring-offset-8 transition-all    hover:scale-105">
 					Get In Touch
 				</button>
-				<div className="w-4 h-4 rounded-full bg-zinc-300 absolute bottom-12 left-32 animate-pulse"></div>
+				<div className="w-4 h-4 rounded-full bg-violet-200 absolute bottom-12 left-32 animate-pulse"></div>
 			</section>
 			<section className="hidden md:block ">
 				<div className="bg-zinc-300 rounded-full w-80  transition-all ">
