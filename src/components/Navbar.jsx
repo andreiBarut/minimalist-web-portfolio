@@ -1,9 +1,6 @@
 import personalLogo from "../assets/AB-logos_transparent.png";
 import { CiMail } from "react-icons/ci";
 import { RiMenu4Fill } from "react-icons/ri";
-import { BsFillMenuAppFill } from "react-icons/bs";
-import { Link } from "react-router-dom";
-import MobileNav from "./MobileNav";
 import { useState } from "react";
 
 const Navbar = () => {
