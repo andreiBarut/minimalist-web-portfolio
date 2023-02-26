@@ -18,15 +18,15 @@ function App() {
 
 			<div className="app-content-container">
 				<Navbar />
-				<Reveal delay={0} damping={0}>
-					<Home />
-				</Reveal>
-				<Reveal delay={0} damping={0}>
-					<About />
-				</Reveal>
-				<Reveal delay={0}>
-					<Projects />
-				</Reveal>
+				{/* <Reveal delay={0} damping={0}> */}
+				<Home />
+				{/* </Reveal> */}
+				{/* <Reveal delay={0} damping={0}> */}
+				<About />
+				{/* </Reveal> */}
+				{/* <Reveal delay={0}> */}
+				<Projects />
+				{/* </Reveal> */}
 			</div>
 		</div>
 	);

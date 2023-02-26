@@ -1,4 +1,6 @@
 import voteVTO from "../assets/voteVTO.png";
+import grandmasRecipes from "../assets/grandmasRecipes.png";
+import currencyExchange from "../assets/currencyExchange.png";
 import { GiLightBulb } from "react-icons/gi";
 
 const Projects = () => {
@@ -10,16 +12,17 @@ const Projects = () => {
 			</h1>
 			<section className="flex justify-center gap-10 lg:gap-16 flex-wrap flex-col lg:flex-row">
 				<article className="flex flex-col justify-center items-center gap-2 w-96 lg:w-1/4 p-5 drop-shadow-xl shadow-xl border-zinc-300 rounded-3xl">
-					<img src={voteVTO} className=" rounded-xl" alt="project image" />
-					<h2 className=" text-2xl font-bold text-center">Custom Polls</h2>
+					<img
+						src={grandmasRecipes}
+						className=" rounded-xl w-56"
+						alt="project image"
+					/>
+					<h2 className=" text-2xl font-bold text-center">Cooking Assistant</h2>
 
 					<p className="flex flex-wrap text-sm mx-auto text-center leading-6 ">
-						Custom Voting Polls application developed for the local county veteran
-						association developed with ReactJS. The app implements user
-						authentification, firebase cloud database firestore, it allows the user to
-						create custom polls and manage the forms from the poll dashboard. The
-						votes can be public, private and results are displayed accordingly to the
-						poll settings.
+						Cooking assistant made with react, json as database, react router dom for
+						dynamic routing. This project is an homage to my grandmother, who was a
+						cook during the communist period. The recipes are taken from her cookbook.
 					</p>
 					<div className="flex flex-row gap-10">
 						<a
@@ -37,7 +40,7 @@ const Projects = () => {
 					</div>
 				</article>
 				<article className="flex flex-col transform scale-105 justify-center items-center ring-2 ring-violet-200 gap-2 w-96 lg:w-1/4 p-5 drop-shadow-xl shadow-xl border-zinc-300 rounded-3xl">
-					<img src={voteVTO} className=" rounded-xl" alt="project image" />
+					<img src={voteVTO} className=" rounded-xl w-56" alt="project image" />
 					<h2 className=" text-2xl font-bold text-center">Custom Polls</h2>
 
 					<p className="flex flex-wrap text-sm mx-auto text-center leading-6 ">
@@ -64,16 +67,18 @@ const Projects = () => {
 					</div>
 				</article>
 				<article className="flex flex-col justify-center items-center gap-2 w-96 lg:w-1/4 p-5 drop-shadow-xl shadow-xl border-zinc-300 rounded-3xl">
-					<img src={voteVTO} className=" rounded-xl" alt="project image" />
-					<h2 className=" text-2xl font-bold text-center">Custom Polls</h2>
+					<img
+						src={currencyExchange}
+						className=" rounded-xl w-56"
+						alt="project image"
+					/>
+					<h2 className=" text-2xl font-bold text-center">
+						Currency Exchange Application
+					</h2>
 
 					<p className="flex flex-wrap text-sm mx-auto text-center leading-6 ">
-						Custom Voting Polls application developed for the local county veteran
-						association developed with ReactJS. The app implements user
-						authentification, firebase cloud database firestore, it allows the user to
-						create custom polls and manage the forms from the poll dashboard. The
-						votes can be public, private and results are displayed accordingly to the
-						poll settings.
+						Currency exchange application with converter and currency evolution over
+						time functionalities, made with vanilla JS and web API.
 					</p>
 					<div className="flex flex-row gap-10">
 						<a

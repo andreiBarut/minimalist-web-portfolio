@@ -30,16 +30,16 @@ const Navbar = () => {
 					transform: "translate(-50%, -50%",
 				}}
 			>
-				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-4xl font-medium transition-all">
 					<a href="#">Home</a>
 				</li>
-				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-4xl font-medium transition-all">
 					<a href="#">About</a>
 				</li>
-				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-4xl font-medium transition-all">
 					<a href="#">Projects</a>
 				</li>
-				<li className="hover:scale-125 text-3xl md:text-6xl font-medium transition-all">
+				<li className="hover:scale-125 text-3xl md:text-4xl font-medium transition-all">
 					<a href="#">Blog</a>
 				</li>
 			</ul>
