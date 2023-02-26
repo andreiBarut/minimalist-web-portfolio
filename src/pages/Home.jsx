@@ -2,7 +2,7 @@ import profilePic from "../assets/profilePic-removebg.png";
 
 const Home = () => {
 	return (
-		<div className="home-container flex justify-center flex-row items-center  gap-5 md:gap-24 lg:gap-52 h-screen mb-10">
+		<div className="home-container flex justify-center flex-row items-center  gap-5 md:gap-24 lg:gap-52 h-screen mb-32">
 			<section className="flex flex-col justify-center items-start gap-5 transition-all relative">
 				<h6 className="text-2xl lg:text-3xl xl:text-4xl animate-pulse">
 					Hi, I'm Andrei Barut

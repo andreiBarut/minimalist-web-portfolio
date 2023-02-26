@@ -2,7 +2,7 @@ import aboutPicture from "../assets/about-picture-removebg.png";
 import { RiFileInfoFill } from "react-icons/ri";
 const About = () => {
 	return (
-		<div className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen  p-0  lg:p-52 gap-10 md:gap-20 lg:gap-32 relative">
+		<div className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen  p-0  lg:p-52 gap-10 md:gap-20 lg:gap-32 relative mb-32">
 			<section className="w-full md:w-1/2 flex justify-center flex-col text-sm items-center">
 				<img
 					src={aboutPicture}
