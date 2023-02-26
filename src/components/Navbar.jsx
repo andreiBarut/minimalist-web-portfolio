@@ -8,9 +8,11 @@ const Navbar = () => {
 	const [menuPosition, setMenuPosition] = useState("translateX(200%)");
 	const [skew, setSkew] = useState("skew(0deg");
 	const [menuColor, setMenuColor] = useState("black");
+
+	//MOBILE NAV COMPONENT
 	const mobileNav = (
 		<div
-			className="z-40 fixed right-0 bg-violet-500 h-full w-1/2 lg:hidden"
+			className="z-40 fixed right-0 filter backdrop-blur-2xl bg-violet-500 h-full w-1/2 lg:hidden"
 			style={{
 				transform: `${menuPosition}`,
 				transitionProperty: "all",
@@ -43,7 +45,7 @@ const Navbar = () => {
 		</div>
 	);
 
-	const handleClick = (e) => {
+	const handleClick = () => {
 		if (isClicked === false) {
 			setIsClicked(true);
 			setMenuPosition("translateX(0%)");

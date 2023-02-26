@@ -2,7 +2,14 @@
 module.exports = {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			width: {
+				"40viewW": "40vw",
+			},
+			height: {
+				"90viewH": "90vh",
+			},
+		},
 		fontFamily: {
 			sans: ["'Montserrat', sans-serif"],
 		},
