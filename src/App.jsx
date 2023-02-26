@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Hi from "./components/Hi";
+import Footer from "./pages/Footer";
 import { Fade, Zoom, Reveal, Flip, Slide } from "react-awesome-reveal";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
 				{/* <Reveal delay={0}> */}
 				<Projects />
 				{/* </Reveal> */}
+				<Footer />
 			</div>
 		</div>
 	);
