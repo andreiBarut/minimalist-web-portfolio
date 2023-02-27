@@ -2,7 +2,10 @@ import aboutPicture from "../assets/about-picture-removebg.png";
 import { RiFileInfoFill } from "react-icons/ri";
 const About = () => {
 	return (
-		<div className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen  p-0  lg:p-0 xl:p-20 gap-10 md:gap-10 lg:gap-0 xl:gap-20 relative mb-32">
+		<div
+			className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen  p-0  lg:p-0 xl:p-20 gap-10 md:gap-10 lg:gap-0 xl:gap-20 relative mb-32 dark:text-zinc-50"
+			id="about"
+		>
 			<section className="w-full md:w-1/2 flex justify-center flex-col text-sm items-center">
 				<img
 					src={aboutPicture}
@@ -11,52 +14,52 @@ const About = () => {
 				/>
 				{/* <p className="font-bold ">Skills</p> */}
 				<ul className="flex flex-wrap justify-center">
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						HTML
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						CSS
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						JavaScript ES6
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						React
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Taiwlind
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Bootstrap
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						API
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Firebase
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Npm
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Git
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Github
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Linux
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Command Line
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Cloud Services
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						JSON
 					</li>
-					<li className="bg-violet-400 text-neutral-50 m-2   rounded-2xl  p-1">
+					<li className="bg-violet-400 text-zinc-50 dark:text-zinc-900 font-semibold m-2   rounded-2xl  p-1">
 						Database
 					</li>
 				</ul>
@@ -73,7 +76,7 @@ const About = () => {
 				</div> */}
 				<p className=" leading-8">
 					I am{" "}
-					<span className="bg-zinc-800 text-neutral-50 m-2 inline  rounded-2xl  p-1">
+					<span className="bg-zinc-800 text-neutral-50 m-2 inline  rounded-2xl  p-1 dark:bg-zinc-50 dark:text-zinc-800">
 						front-end developer
 					</span>
 					passionate, open to a new professional challenge and ready to take on

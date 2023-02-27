@@ -5,7 +5,10 @@ import { GiLightBulb } from "react-icons/gi";
 
 const Projects = () => {
 	return (
-		<div className="projects-container h-max flex flex-col justify-center items-center mb-10">
+		<div
+			className="projects-container h-max flex flex-col justify-center items-center mb-10 dark:text-zinc-50"
+			id="projects"
+		>
 			<h1 className="text-4xl font-bold p-10 flex justify-center items-center">
 				<GiLightBulb className="text-6xl text-violet-400 animate-pulse" />
 				Some of my Recent Projects{" "}
@@ -16,7 +19,7 @@ const Projects = () => {
 				<div className="w-4 h-4 rounded-sm bg-zinc-800"></div>
 			</div>
 			<section className=" flex flex-row flex-wrap justify-center items-center gap-5">
-				<article className="w-96  shadow-md shadow-violet-200 flex text-center flex-col justify-center items-center rounded-xl h-96">
+				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl h-96">
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "
@@ -44,7 +47,7 @@ const Projects = () => {
 						</a>
 					</div>
 				</article>
-				<article className="w-96  shadow-md shadow-violet-200 flex text-center flex-col justify-center items-center rounded-xl    h-96">
+				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96">
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "
@@ -72,7 +75,7 @@ const Projects = () => {
 						</a>
 					</div>
 				</article>
-				<article className="w-96  shadow-md shadow-violet-200 flex text-center flex-col justify-center items-center rounded-xl    h-96">
+				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96">
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "
@@ -100,7 +103,7 @@ const Projects = () => {
 						</a>
 					</div>
 				</article>
-				<article className="w-96  shadow-md shadow-violet-200 flex text-center flex-col justify-center items-center rounded-xl    h-96">
+				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96">
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "
