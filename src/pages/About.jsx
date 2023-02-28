@@ -5,6 +5,8 @@ const About = () => {
 		<div
 			className="about-container flex flex-col-reverse items-center md:flex-row justify-center h-screen  p-0  lg:p-0 xl:p-20 gap-10 md:gap-10 lg:gap-0 xl:gap-20 relative mb-32 dark:text-zinc-50"
 			id="about"
+			data-aos="zoom-in"
+			data-aos-duration="500"
 		>
 			<section className="w-full md:w-1/2 flex justify-center flex-col text-sm items-center">
 				<img

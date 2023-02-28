@@ -8,18 +8,24 @@ const Projects = () => {
 		<div
 			className="projects-container h-max flex flex-col justify-center items-center mb-10 dark:text-zinc-50"
 			id="projects"
+			data-aos="zoom-in"
+			data-aos-duration="500"
 		>
 			<h1 className="text-4xl font-bold p-10 flex justify-center items-center">
 				<GiLightBulb className="text-6xl text-violet-400 animate-pulse" />
 				Some of my Recent Projects{" "}
 			</h1>
 			<div className="hidden lg:flex items-center md:flex mb-20">
-				<div className="w-4 h-4 rounded-full bg-zinc-800"></div>
-				<div className="w-64 h-1 bg-zinc-800"></div>
-				<div className="w-4 h-4 rounded-sm bg-zinc-800"></div>
+				<div className="w-4 h-4 rounded-full bg-zinc-800 dark:bg-zinc-300"></div>
+				<div className="w-64 h-1 bg-zinc-800 dark:bg-zinc-300"></div>
+				<div className="w-4 h-4 rounded-sm bg-zinc-800 dark:bg-zinc-300"></div>
 			</div>
 			<section className=" flex flex-row flex-wrap justify-center items-center gap-5">
-				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl h-96">
+				<article
+					className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl h-96"
+					data-aos="flip-left"
+					data-aos-duration="500"
+				>
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "
@@ -47,7 +53,11 @@ const Projects = () => {
 						</a>
 					</div>
 				</article>
-				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96">
+				<article
+					className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96"
+					data-aos="flip-left"
+					data-aos-duration="500"
+				>
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "
@@ -75,7 +85,11 @@ const Projects = () => {
 						</a>
 					</div>
 				</article>
-				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96">
+				<article
+					className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96"
+					data-aos="flip-left"
+					data-aos-duration="500"
+				>
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "
@@ -103,7 +117,11 @@ const Projects = () => {
 						</a>
 					</div>
 				</article>
-				<article className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96">
+				<article
+					className="w-96  shadow-sm shadow-zinc-900 flex text-center flex-col justify-center items-center rounded-xl    h-96"
+					data-aos="flip-left"
+					data-aos-duration="500"
+				>
 					<img
 						src={grandmasRecipes}
 						className="rounded-t-2xl w-52 "

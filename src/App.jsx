@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -9,13 +9,12 @@ import Projects from "./pages/Projects";
 import Hi from "./components/Hi";
 import Footer from "./pages/Footer";
 import { Fade, Zoom, Reveal, Flip, Slide } from "react-awesome-reveal";
-
+import Aos from "aos";
 function App() {
-	const [count, setCount] = useState(0);
-
+	Aos.init();
 	return (
-		<div className="App bg-zinc-50">
-			<Hi />
+		<div className="App bg-zinc-50 dark:bg-zinc-800">
+			{/* <Hi /> */}
 
 			<div className="app-content-container">
 				<Navbar />

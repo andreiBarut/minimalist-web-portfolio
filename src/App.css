@@ -15,7 +15,7 @@
 	height: 92vh;
 } */
 
-.hi-container {
+/* .hi-container {
 	animation-name: appear;
 	animation-duration: 2s;
 	opacity: 0;
@@ -25,8 +25,6 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-
-	/* animation: ease-in; */
 }
 
 @keyframes appear {
@@ -89,4 +87,4 @@
 	animation-name: profile-circle;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
-}
+} */
